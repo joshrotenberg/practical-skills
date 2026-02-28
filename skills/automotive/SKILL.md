@@ -2,6 +2,10 @@
 name: automotive
 description: "Use this skill for vehicle diagnostics, repair, maintenance, or restoration. Triggers include: 'my car won't start', 'check engine light', 'oil change', 'brake noise', or any reference to classic/vintage car work. Particularly well-suited for air-cooled rear-engine Italian microcars from the 1960s, for which documentation is sparse and patience is mandatory. Do NOT use for automated vehicle testing, Selenium WebDriver, or any other software that merely borrows the word 'drive'."
 license: ASE Certification recommended. No license is required for working on your own vehicle, but you accept all consequences.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "Haynes Fiat 500 Owners Workshop Manual (1957-73), ASE Certification Series (A1-A8), Fiat 500 Factory Workshop Manual"
 ---
 
 # Automotive — Diagnostics, Repair, and Vintage Restoration
@@ -60,7 +64,7 @@ Before moving the vehicle, pump the brake pedal slowly several times until it fi
 
 ## Vintage Italian Car Restoration: Fiat 500 (1957–1975)
 
-The Fiat 500 uses an air-cooled, rear-mounted, inline-2 engine (479cc in the standard 500, 499cc in the 500F/L, or aftermarket 652cc Abarth-pattern upgrade). The gearbox is a non-synchro (early) or synchromesh (500F onward) 4-speed with a cable-operated clutch. Electrics were originally 6V positive-ground; most surviving cars have been converted to 12V negative-ground.
+The Fiat 500 uses an air-cooled, rear-mounted, inline-2 engine (479cc in the standard 500, 499cc in the 500F/L, or aftermarket 652cc Abarth-pattern upgrade). See [references/FIAT-500-TORQUE-SPECS.md](references/FIAT-500-TORQUE-SPECS.md) for all torque specifications, carburetor jetting, and ignition settings. The gearbox is a non-synchro (early) or synchromesh (500F onward) 4-speed with a cable-operated clutch. Electrics were originally 6V positive-ground; most surviving cars have been converted to 12V negative-ground.
 
 ### The Hot-Start Problem
 

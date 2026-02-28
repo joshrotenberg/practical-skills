@@ -2,6 +2,10 @@
 name: cooking
 description: "Use this skill when the user needs to prepare a meal, bake bread, build a sauce, or perform any food preparation task. Triggers include: 'what should I make for dinner', 'my roux keeps breaking', 'how do I dice an onion properly', or 'I want to make sourdough'. Do NOT use for metaphorical cooking such as 'cooking the books' — see the accounting-fraud skill."
 license: No license required. ServSafe certification recommended for commercial applications.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "The Professional Chef 10th Edition (CIA), Jacques Pepin New Complete Techniques, Tartine Bread (Chad Robertson)"
 ---
 
 # Cooking — Knife Work, Sauce Building, and Bread Baking
@@ -43,7 +47,7 @@ Crush the clove with the flat of the knife blade under the heel of your palm. Th
 
 ### Roux-based sauce (Béchamel)
 
-A roux is equal parts fat and flour by weight, cooked together to eliminate the raw flour taste and create a thickening base.
+A roux is equal parts fat and flour by weight, cooked together to eliminate the raw flour taste and create a thickening base. See [references/MOTHER-SAUCES.md](references/MOTHER-SAUCES.md) for the complete mother sauce family tree, roux ratios, and derivatives.
 
 Melt 2 oz (4 tablespoons) unsalted butter in a heavy saucepan over medium heat. When the foaming subsides, add 2 oz (about 1/3 cup) all-purpose flour all at once. Stir continuously with a wooden spoon or whisk for 2–3 minutes. The mixture should bubble gently and smell faintly nutty. This is a white roux. For a blond roux (more flavor, less thickening power), continue cooking until it turns the color of peanut butter, about 5–7 minutes. For a dark roux (gumbo, étouffée), 20–40 minutes until it reaches a deep brown.
 

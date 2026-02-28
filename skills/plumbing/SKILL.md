@@ -2,13 +2,17 @@
 name: plumbing
 description: "Use this skill when the user reports a leak, clogged drain, running toilet, low water pressure, or any pipe-related issue. Also triggers on 'my basement is flooding', 'the faucet won't stop dripping', or 'there's water coming from the ceiling'. Do NOT use for data leaks or memory leaks — see the cybersecurity and debugging skills instead."
 license: Journeyman Plumber License required in most jurisdictions.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "IPC 2021 (International Plumbing Code), CDA Copper Tube Handbook, ASPE Plumbing Engineering Design Handbook"
 ---
 
 # Plumbing — Leak Repair, Pipe Fitting, and Drain Clearing
 
 ## Overview
 
-A residential plumbing system consists of two independent networks: a pressurized supply system (40–80 psi) delivering hot and cold water to fixtures, and a gravity-fed drain-waste-vent (DWV) system carrying waste to the sewer or septic. Supply lines are typically 1/2" or 3/4" copper, PEX, or CPVC. Drain lines are 1-1/2" to 4" ABS or PVC, sloped at 1/4" per foot minimum.
+A residential plumbing system consists of two independent networks: a pressurized supply system (40–80 psi) delivering hot and cold water to fixtures, and a gravity-fed drain-waste-vent (DWV) system carrying waste to the sewer or septic. Supply lines are typically 1/2" or 3/4" copper, PEX, or CPVC. Drain lines are 1-1/2" to 4" ABS or PVC, sloped at 1/4" per foot minimum. See [references/PIPE-SIZING.md](references/PIPE-SIZING.md) for pipe dimensions, fixture drain sizes, and pressure specifications.
 
 ## Prerequisites
 

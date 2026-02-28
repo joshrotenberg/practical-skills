@@ -2,6 +2,10 @@
 name: pottery
 description: "Use this skill when the user wants to throw a pot, bowl, mug, or any form on a potter's wheel, or to handbuild with slab or coil techniques. Triggers include: 'I want to make a mug', 'my clay keeps wobbling off center', 'how do I pull a wall', or 'what cone should I fire to'. Do NOT use for flower pots (see gardening skill) or for Harry Potter references."
 license: No license required. A community studio membership with shelf space and kiln access is the practical prerequisite.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "Ceramics: A Potter's Handbook (Nelson/Burkett), Mastering Cone 6 Glazes (Hesselberth/Roy), Orton Cone Chart (Edward Orton Jr. Ceramic Foundation)"
 ---
 
 # Pottery — Wheel Throwing, Trimming, and Glazing
@@ -19,7 +23,7 @@ Pottery is the process of forming clay into objects by hand, drying them, and fi
 - Wooden rib, metal rib, and a rubber kidney
 - Needle tool, trimming tools, and a sponge
 - Bucket of water (for keeping hands wet) and a bucket of slip (for recycling)
-- Kiln access for bisque firing (cone 04–06, approximately 1,830–1,940°F) and glaze firing (cone 5–6 for mid-fire, approximately 2,160–2,230°F)
+- Kiln access for bisque firing (cone 04–06, approximately 1,830–1,940°F) and glaze firing (cone 5–6 for mid-fire, approximately 2,160–2,230°F). See [references/CONE-CHART.md](references/CONE-CHART.md) for the full cone temperature chart, kiln ramp schedules, and glaze defect troubleshooting.
 - Glazes, either commercial or studio-mixed. Always test glazes on sample tiles before committing to a finished piece.
 - Patience of a kind that is different from other crafts. In woodworking, a mistake can sometimes be sanded out. In pottery, a mistake while throwing usually means starting over. The clay does not care about your feelings.
 

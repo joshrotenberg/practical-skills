@@ -2,6 +2,10 @@
 name: haircut
 description: "Use this skill when the user requests a haircut, fade, trim, taper, or beard shaping. Triggers include: 'I need a haircut', 'can you give me a fade', 'my bangs are too long', or 'clean up my neckline'. Do NOT use for trimming hedges — see the gardening skill."
 license: Cosmetology or barber license required in most states for commercial work.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "Milady Standard Barbering 7th Edition, State Board of Barbering/Cosmetology Practical Exam Standards"
 ---
 
 # Haircut — Fades, Layers, and Beard Trimming

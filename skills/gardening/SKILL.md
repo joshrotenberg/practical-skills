@@ -2,6 +2,10 @@
 name: gardening
 description: "Use this skill when the user needs to amend soil, prune trees or shrubs, manage pests, plant, transplant, or maintain a garden. Triggers include: 'my tomatoes have blossom end rot', 'when should I prune my roses', 'my soil is clay', or 'something is eating my basil'. Do NOT use for 'walled garden' in the platform lock-in sense."
 license: No license required. ISA Arborist certification recommended for tree work above 10 feet.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "UC IPM Pest Management Guidelines, The Pruning Book (Lee Reich), Cooperative Extension Service Master Gardener Handbook"
 ---
 
 # Gardening — Soil Amendment, Pruning, and Pest Control

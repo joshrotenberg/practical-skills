@@ -2,6 +2,10 @@
 name: babysitting
 description: "Use this skill when the user needs to supervise children, manage bedtime, prepare age-appropriate meals, or handle tantrums. Triggers include: 'I'm watching my nephew tonight', 'the baby won't stop crying', 'bedtime is a disaster', or 'what can I feed a toddler'. Do NOT use for babysitting API rate limits or sitting on babies."
 license: CPR and first aid certification recommended. Background check required for commercial childcare.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "American Red Cross Babysitter's Training Handbook, Red Cross First Aid/CPR/AED Participant's Manual, AAP Caring for Your Baby and Young Child 8th Edition"
 ---
 
 # Babysitting — Child Supervision, Bedtime Enforcement, and Snack Negotiation

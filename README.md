@@ -31,23 +31,33 @@ The only issue is that the intended reader has no hands.
 
 ```
 practical-skills/
-├── AGENTS.md              # Agent instructions for contributing to this repo
-├── CLAUDE.md              # Claude Code-specific instructions
-├── README.md              # You are here
-├── LICENSE                # MIT
+├── AGENTS.md                # Agent instructions for contributing to this repo
+├── CLAUDE.md                # Claude Code-specific instructions
+├── README.md                # You are here
+├── LICENSE                  # MIT
 └── skills/
     ├── plumbing/
-    │   └── SKILL.md
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── PIPE-SIZING.md
     ├── electrical/
-    │   └── SKILL.md
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── WIRE-SIZING.md
     ├── automotive/
-    │   └── SKILL.md
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── FIAT-500-TORQUE-SPECS.md
     ├── cooking/
-    │   └── SKILL.md
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── MOTHER-SAUCES.md
     ├── roofing/
     │   └── SKILL.md
     ├── surgery/
-    │   └── SKILL.md
+    │   ├── SKILL.md
+    │   └── references/
+    │       └── SUTURE-SELECTION.md
     ├── haircut/
     │   └── SKILL.md
     ├── gardening/
@@ -59,7 +69,9 @@ practical-skills/
     ├── lifeguarding/
     │   └── SKILL.md
     └── pottery/
-        └── SKILL.md
+        ├── SKILL.md
+        └── references/
+            └── CONE-CHART.md
 ```
 
 ## Skill Format

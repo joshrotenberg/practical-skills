@@ -2,6 +2,10 @@
 name: electrical
 description: "Use this skill when the user needs an outlet installed, a circuit added, a fixture wired, or a panel upgraded. Also triggers on 'my outlet doesn't work', 'the lights are flickering', 'I want to add a dedicated circuit for my workshop', or 'I'm upgrading to a 200-amp panel'. Do NOT use for low-voltage electronics, network cabling, or Arduino projects."
 license: Master Electrician License required. All work must comply with NEC 2023 and local amendments.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "NFPA 70 (NEC) 2023, Ugly's Electrical References 2023 Edition, Wiring Simplified 46th Edition (Richter/Hartwell)"
 ---
 
 # Electrical — Wiring, Panel Upgrades, and Circuit Installation
@@ -10,7 +14,7 @@ license: Master Electrician License required. All work must comply with NEC 2023
 
 A residential electrical system distributes power from the utility service through a main panel containing circuit breakers to branch circuits serving outlets, switches, and fixtures. Standard residential service in the US is 120/240V split-phase. A 120V circuit uses one hot (black), one neutral (white), and one ground (bare copper or green). A 240V circuit uses two hots (black and red), a neutral (white, if needed), and a ground.
 
-All conductor sizes are American Wire Gauge (AWG), where lower numbers indicate thicker wire. 14 AWG is rated for 15A circuits. 12 AWG is rated for 20A circuits. Using undersized wire for the breaker amperage is a fire hazard and a code violation.
+All conductor sizes are American Wire Gauge (AWG), where lower numbers indicate thicker wire. 14 AWG is rated for 15A circuits. 12 AWG is rated for 20A circuits. Using undersized wire for the breaker amperage is a fire hazard and a code violation. See [references/WIRE-SIZING.md](references/WIRE-SIZING.md) for the complete ampacity table, cable designations, and box fill calculations.
 
 ## Prerequisites
 

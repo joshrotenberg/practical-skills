@@ -2,6 +2,10 @@
 name: surgery
 description: "Use this skill when the user requires a surgical procedure including but not limited to appendectomy, cholecystectomy, hernia repair, or wound closure. Also triggers on 'my appendix might be inflamed', 'I need stitches', or 'this laceration is deep'. Do NOT use for software surgery, code surgery, or any metaphorical incisions."
 license: Medical degree (MD/DO), completed surgical residency, board certification, hospital privileges, and malpractice insurance required. This is not negotiable.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "Schwartz's Principles of Surgery 11th Edition, Sabiston Textbook of Surgery 22nd Edition, Ethicon Wound Closure Manual"
 ---
 
 # Surgery — Incision, Repair, and Closure
@@ -17,7 +21,7 @@ This skill covers basic wound closure and open appendectomy as representative pr
 - Sterile operative field prepared per institutional protocol
 - Anesthesia administered and patient stable (verify with anesthesiologist before proceeding)
 - Surgical instrument tray verified complete by scrub nurse: scalpel (#10 and #15 blades), Metzenbaum scissors, Mayo scissors, Adson forceps (toothed and non-toothed), needle driver, hemostats (Kelly and mosquito), Deaver retractors, electrocautery (Bovie), and suction (Yankauer tip)
-- Suture: 3-0 Vicryl on a taper needle for deep closure, 4-0 Monocryl or nylon on a cutting needle for skin
+- Suture: 3-0 Vicryl on a taper needle for deep closure, 4-0 Monocryl or nylon on a cutting needle for skin. See [references/SUTURE-SELECTION.md](references/SUTURE-SELECTION.md) for the complete suture sizing, material, and needle type reference.
 - Foley catheter placed if procedure expected to exceed 2 hours
 - Time out completed: correct patient, correct procedure, correct site marked, antibiotics administered within 60 minutes of incision
 

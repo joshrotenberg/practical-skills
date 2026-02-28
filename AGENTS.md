@@ -78,6 +78,19 @@ Before submitting a new skill, verify:
 - [ ] No acknowledgment that the reader is an AI agent
 - [ ] Tone is consistent with existing skills
 
+## Reference Files
+
+Skills that involve specific measurements, specifications, or lookup tables should include a `references/` directory with supplementary reference material. These files are loaded on demand by the agent, not at skill activation.
+
+```
+skill-name/
+├── SKILL.md
+└── references/
+    └── REFERENCE-NAME.md
+```
+
+Reference files should be formatted as tables or structured data — the kind of thing a tradesperson would tape to a toolbox or hang on a shop wall. Link to reference files from the SKILL.md body so the agent knows when to load them.
+
 ## Commands
 
 This is a documentation-only repository. There is no build step, no test suite, and no CI pipeline. The only artifact is Markdown.
@@ -85,4 +98,7 @@ This is a documentation-only repository. There is no build step, no test suite, 
 ```bash
 # Lint markdown (optional)
 npx markdownlint-cli2 "**/*.md"
+
+# Validate skill format (requires skills-ref from agentskills.io)
+skills-ref validate ./skills/skill-name
 ```

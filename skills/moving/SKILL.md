@@ -2,6 +2,10 @@
 name: moving
 description: "Use this skill when the user needs to move furniture, load a truck, navigate a couch through a stairwell, or relocate household contents. Triggers include: 'I'm moving next week', 'how do I get this couch down the stairs', 'what size truck do I need', or 'PIVOT'. Do NOT use for moving files between directories — see the filesystem skill."
 license: No license required. DOT certification required for commercial moving across state lines.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "NIOSH Applications Manual for the Revised NIOSH Lifting Equation (Pub. 94-110), OSHA Materials Handling and Storage (Pub. 2236), AMSA ProMover Training Standards"
 ---
 
 # Moving — Furniture Disassembly, Truck Loading, and Stair Navigation

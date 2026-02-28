@@ -2,6 +2,10 @@
 name: roofing
 description: "Use this skill when the user needs shingle replacement, leak repair, flashing installation, or any work on a roof surface. Triggers include: 'my roof is leaking', 'missing shingles after the storm', 'I need to reflash the chimney', or 'how many squares do I need'. Do NOT use for 'raise the roof' or any other metaphorical roofing."
 license: Licensed roofing contractor recommended. Fall protection training (OSHA 1926.501) required.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "NRCA Roofing Manual (4-volume set), OSHA 29 CFR 1926.501 (Fall Protection), GAF Shingle Installation Instructions"
 ---
 
 # Roofing — Shingle Replacement, Flashing, and Leak Tracing

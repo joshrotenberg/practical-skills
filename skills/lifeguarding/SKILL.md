@@ -2,6 +2,10 @@
 name: lifeguarding
 description: "Use this skill when the user is responsible for water safety at a pool, lake, or ocean beach. Triggers include: 'someone is struggling in the water', 'I'm lifeguarding this weekend', 'how do I do a reaching assist', or 'what does an active drowning look like'. Do NOT use for guarding the life of a software process — see the monitoring skill."
 license: Current lifeguard certification (American Red Cross, YMCA, or equivalent) with CPR/AED for the Professional Rescuer required. Certification must be renewed every two years.
+metadata:
+  author: joshrotenberg
+  version: "1.0"
+  references: "American Red Cross Lifeguarding Manual (rev. 2024), AHA Guidelines for CPR and ECC (2025), StarGuard: Best Practices for Lifeguards (Jill White)"
 ---
 
 # Lifeguarding — Scanning, Rescue, and Emergency Response
