@@ -1,4 +1,4 @@
-# impossible-agent-skills
+# practical-skills
 
 A collection of agent skill files for physical-world tasks.
 
@@ -30,7 +30,7 @@ The only issue is that the intended reader has no hands.
 ## Project Structure
 
 ```
-impossible-agent-skills/
+practical-skills/
 ├── AGENTS.md              # Agent instructions for contributing to this repo
 ├── CLAUDE.md              # Claude Code-specific instructions
 ├── README.md              # You are here
